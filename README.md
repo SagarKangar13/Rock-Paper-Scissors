@@ -28,7 +28,7 @@ This is a simple Rock Paper Scissors game implemented using HTML, CSS, and JavaS
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/SagarKangar13/rock-paper-scissors.git
+   git clone https://github.com/SagarKangar13/Rock-Paper-Scissors.git
 2. Open index.html in a web browser to play the game.
 Usage
 Simply open the index.html file in your preferred web browser to start playing the game.
