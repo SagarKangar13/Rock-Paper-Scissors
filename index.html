@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="rps.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+
+    <div class="score-board">
+        <div class="score">
+            <div>
+                <p id="user-score">0</p>
+                <p>User <i class="fa-solid fa-user"></i></p>
+            </div>
+            <div class="userImgDiv">
+
+            </div>
+        </div>
+        <div class="score">
+            <div class="compImgDiv">
+
+            </div>
+            <div>
+                <p id="comp-score">0</p>
+                <p>Comp <i class="fa-solid fa-computer"></i></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="msg-container">
+        <p id="msg">Play your move</p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="rock"> 
+            <img src="./images/rock.png" alt="Rock Image">
+        </div>
+        <div class="choice" id="paper"> 
+            <img src="./images/paper.png" alt="Paper Image">
+        </div>
+        <div class="choice" id="scissors"> 
+            <img src="./images/scissors.png" alt="Scissors Image">
+        </div>
+    </div>
+
+    <button id="reset-btn">Reset Game</button>
+    
+    <script src="rps.js"></script>
+</body>
+</html>
